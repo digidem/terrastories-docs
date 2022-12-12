@@ -2,7 +2,7 @@
 
 ### Technical support
 
-For help with common technical issues, see the [troubleshooting](troubleshooting/ "mention") section of this guide. For additional support, please check out the community of active users and maintainers of Terrastories on our public #terrastories channel on the [Ruby for Good Slack.](https://rubyforgood.herokuapp.com/)
+For help with common technical issues, see the [troubleshooting](troubleshooting/ "mention") section of this guide. For additional support, please check out the community of active users and maintainers of Terrastories on our public #terrastories channel on the [Ruby for Good Slack](https://rubyforgood.slack.com/join/shared\_invite/zt-1kfeimohe-KL\~\~\~6Lkof7G94\_7Ojd\_Hw#/shared-invite/email).
 
 If you're a developer or comfortable using GitHub, you can file an issue in the corresponding repository [here](https://github.com/terrastories/terrastories).
 

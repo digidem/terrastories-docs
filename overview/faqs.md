@@ -86,10 +86,10 @@ Lastly, the _super admin_ of a Terrastories server does not have access to your 
 
 ## Can you help me deploy Terrastories?
 
-There is a community of active users and maintainers of Terrastories that participate in our public #terrastories channel on the [Ruby for Good Slack ](https://rubyforgood.herokuapp.com/)and on our [Earth Defenders Toolkit Forum](https://forum.earthdefenderstoolkit.com/). We encourage you to consult these spaces for additional tips and ideas on how people are using Terrastories.
+There is a community of active users and maintainers of Terrastories that participate in our public #terrastories channel on the [Ruby for Good Slack](https://rubyforgood.slack.com/join/shared\_invite/zt-1kfeimohe-KL\~\~\~6Lkof7G94\_7Ojd\_Hw#/shared-invite/email) and on our [Earth Defenders Toolkit Forum](https://forum.earthdefenderstoolkit.com/). We encourage you to consult these spaces for additional tips and ideas on how people are using Terrastories.
 
 Digital Democracy's core team is very small and we have limited capacity to provide direct accompaniment for implementing Mapeo outside of our existing partnerships. In some cases we are able to offer support. To read more about the way we work with partners and different levels of support, see [here](https://drive.google.com/file/d/1c9C1-6v1EHKnfrYDsBn3VNu5qS\_pUNMC/view?usp=sharing).
 
 ## How can I report bugs or problems using Terrastories?
 
-There is community of active users and maintainers of Terrastories that participate in our public chat channel on Slack. To join the conversation or seek help on technical issues, you can the public #terrastories channel on the [Ruby for Good Slack.](https://rubyforgood.herokuapp.com/)
+There is community of active users and maintainers of Terrastories that participate in our public chat channel on Slack. To join the conversation or seek help on technical issues, you can the public #terrastories channel on the [Ruby for Good Slack](https://rubyforgood.slack.com/join/shared\_invite/zt-1kfeimohe-KL\~\~\~6Lkof7G94\_7Ojd\_Hw#/shared-invite/email).

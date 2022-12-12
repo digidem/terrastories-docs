@@ -12,7 +12,7 @@ Please see our [Wiki](https://github.com/terrastories/terrastories/wikihttps://g
 
 **Roadmap:** to learn about current open source development work or where we're headed, check out our [Vision Statement](https://github.com/Terrastories/terrastories/wiki/Vision-Statement) and our [Roadmap](https://github.com/Terrastories/terrastories/wiki/Terrastories-Roadmap) (updated December 2022).
 
-**Community:** join us [on Github](https://github.com/terrastories/terrastories) or in the [Ruby for Good Slack](https://rubyforgood.herokuapp.com/) #terrastories channel.
+**Community:** join us [on Github](https://github.com/terrastories/terrastories) or in the [Ruby for Good Slack](https://rubyforgood.slack.com/join/shared\_invite/zt-1kfeimohe-KL\~\~\~6Lkof7G94\_7Ojd\_Hw#/shared-invite/email) #terrastories channel.
 
 **Coding events**: In the past, Terrastories has been built at [Ruby for Good 2018](https://www.amazonteam.org/act-partakes-in-ruby-for-good-2018-to-develop-offline-geostorytelling-app-terrastories-for-remote-communities/), [Ruby by the Bay 2019](http://rubybythebay.org/), [Ruby by the Bay 2020](http://rubybythebay.org/), and [during Hacktoberfest](https://medium.com/@rudokemper/a-very-happy-hacktoberfest-for-terrastories-and-the-ruby-community-9e472d9e85d3). If you are interested in having Terrastories at a coding event, please [get in touch with us.](https://terrastories.app/contact-us)
 
