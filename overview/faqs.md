@@ -22,7 +22,7 @@ Terrastories was built by a volunteer team of open-source stewards and a communi
 
 Terrastories was conceived in 2018 by geographers from the [Amazon Conservation Team](https://amazonteam.org) when working with the [Matawai](https://amazonteam.org/maps/lands-of-freedom), an Afro-descendant Maroon community in Suriname, and was first built by [Ruby for Good](https://rubyforgood.org), a volunteer collective of Ruby developers. Since then, numerous open-source volunteers have contributed to Terrastories, and several organizations and foundations have made small grants to Terrastories including Tech Matters and the Association for Tribal Archives, Libraries, and Museums (ATALM).
 
-Currently, Terrastories is being stewarded and maintained by Digital Democracy and a team of open-source stewards. Active stewards include Rudo Kemper, Laura Mosher, and Luandro Vieira.
+Currently, Terrastories is being stewarded and maintained by Digital Democracy and a team of open-source stewards. Active stewards include Rudo Kemper, Laura Mosher, Albert Chae, and Luandro Vieira.
 
 Digital Democracy is a non-profit organization that works in solidarity with marginalized communities to use technology to defend their rights. For more information on Digital Democracy and our partners, visit [our website](https://www.digital-democracy.org).
 
@@ -56,7 +56,9 @@ Terrastories can be better understood as a content management system and a visua
 
 If you have access to a Terrastories server (online or offline), you _could_ directly enter data about Places, Stories, and Speakers via the Terrastories administrative menu on both mobile devices and desktop computers, but it's worth stressing that there are better and more bespoke tools for this kind of work. It's also not possible to capture audio, video, or images through the Terrastories user interface at this time.&#x20;
 
-We recommend using Terrastories in tandem with another tool for data and story collection and capture. You could use [Mapeo](https://mapeo.app) (or any other mapping tool on the Earth Defenders Toolkit [Toolfinder](https://earthdefenderstoolkit.com/toolfinder)) for mapping places, and any device audio / video recording tool for capturing stories. These can then be entered into Terrastories (either one-by-one or through the Terrastories import feature).
+We recommend using Terrastories in tandem with another tool for data and story collection and capture. You could use [Mapeo](https://mapeo.app) (or any other mapping tool on the Earth Defenders Toolkit [Toolfinder](https://earthdefenderstoolkit.com/toolfinder)) for mapping places, and any device audio / video recording tool for capturing stories. These can then be entered into Terrastories (either one-by-one, through the Terrastories import feature, or using the [Mapeo Observations to Terrastories Places](https://docs.earthdefenderstoolkit.com/device-usage/bundled-applications/mapeo-data-hub/mapeo-observations-as-terrastories-places) workflow in _Kakawa_ (the offline Earth Defenders Toolkit build)
+
+There is also an [ODK / KoboToolbox survey form](https://terrastories.app/now-available-an-odk-kobotoolbox-form-to-collect-places-and-stories-for-terrastories-in-the-field/) available that is designed to gather all of the data required by Terrastories, including multiple Stories and Speakers per place, photos, audio, and video.
 
 ## What kind of data does Terrastories work with?
 
