@@ -23,5 +23,5 @@ description: >-
 ## Other resources
 
 * :books: [Earth Defenders Toolkit](https://www.earthdefenderstoolkit.com) (a website that includes multiple guides, videos, case studies, etc.) \[EN / ES / PT / FR]
-* :book: [Mapping and recording place-based oral histories: a methodology](https://www.amazonteam.org/wp-content/uploads/2019/12/ACT\_OralHistories\_Guide\_2019\_ENGLISH.pdf) | The Amazon Conservation Team (guide, PDF) \[EN / NL]
+* :book: [Mapping and recording place-based oral histories: a methodology](https://terrastories.app/wp-content/uploads/2023/07/ACT\_OralHistories\_Guide\_2019\_ENGLISH.pdf) | The Amazon Conservation Team (guide, PDF) \[EN / NL]
 * 📝 [ODK / KoboToolbox form to collect places and stories for Terrastories in the field](https://terrastories.app/now-available-an-odk-kobotoolbox-form-to-collect-places-and-stories-for-terrastories-in-the-field/)
