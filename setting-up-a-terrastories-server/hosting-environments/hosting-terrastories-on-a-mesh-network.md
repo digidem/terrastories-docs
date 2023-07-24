@@ -9,7 +9,7 @@ _This workflow is for hosting your own Terrastories server on your own device an
 The way to set this up requires use of command-line shell (sometimes known as terminal). Fortunately, we've made it easy to go through most of the process by means of an easy setup script. For anyone wishing to go through the setup process in a more granular way, please refer to our [documentation for developers on Github](https://github.com/Terrastories/terrastories).
 
 {% hint style="success" %}
-You should be able to set up Terrastories and serve the application via a mesh network on any operating system: Linux, Mac, Windows (using WSL).&#x20;
+You should be able to set up Terrastories and serve the application via a mesh network on any operating system: Linux, Mac, Windows (using WSL). However, this workflow has only been fully tested on a Linux OS, specifically Ubuntu 18.04 - 22.04. You may need to take different steps for some of the setup depending on the operating system; for example, the `hosts` and Hotspot network manager files may reside in a different location.
 {% endhint %}
 
 ## Prerequisites
