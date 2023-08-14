@@ -12,7 +12,7 @@ When you set up Terrastories for [hosting-terrastories-offline-as-a-field-kit.md
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Our setup script, which detects if you already have a <code>style.json</code> file in your <code>tileserver/data</code> directory, and if not, downloads the default offline tiles for you.</p></figcaption></figure>
 
-## **How to generate or convert MBTiles**
+### **How to generate or convert MBTiles**
 
 `MBTiles` can be generated from standard geospatial data (Shapefile, GeoJSON) in several ways.
 
@@ -21,11 +21,24 @@ When you set up Terrastories for [hosting-terrastories-offline-as-a-field-kit.md
 * There is also a command line tool called `tippecanoe` which can be used to generate vector `MBTiles` from Esri Shapefiles and other formats: [guide](https://docs.mapbox.com/help/troubleshooting/large-data-tippecanoe/).
 * If you already have tiles in a different format (such as `xyz`), you can use a Node command line tool called `mbutil` to convert them to `MBTiles`. Please see our [xyz to mbtiles conversion repository](https://github.com/digidem/xyz-mbtiles-conversion) or this page [Generating map files in .mbtiles format for the experimental Background Maps feature](https://docs.mapeo.app/complete-reference-guide/customization-options/custom-base-maps/creating-custom-maps/creating-mbtiles) in the Mapeo support materials for more information.
 
-Once generated, place the `MBTiles` in the `tileserver/data/mbtiles/` directory, with the right filename as referenced by `style.json`.
+### **Defining your** `MBTiles` **source in** `config.json`**.**
 
-**Working with custom styles**
+Once generated, place the `MBTiles` in the `tileserver/data/mbtiles/` directory.&#x20;
 
-Map styles (per the `style.json` schema) defines the visual appearance of a map: what data to draw on the map canvas, the order in which layers are displayed, and how to style the data when drawing it. Mapbox provides a helpful [guide](https://docs.mapbox.com/mapbox-gl-js/style-spec/) with all of the possible style parameters, but it's generally useful to download an existing `style.json` file and modify it to suit your needs. One of the easiest ways to build a `style.json` file is by uploading and styling your data on [Mapbox Studio](http://mapbox.com/studio) and downloading the `style.json` file from there, in the following way:
+The source for the `MBTiles` to be used in your map style is defined in `tileserver/data/config.json`. If your `MBTiles` is not called `tiles.mbtiles` , you will need to change the filename here:
+
+```
+  "data": {
+    "terrastories-map": {
+      "mbtiles": "mbtiles/tiles.mbtiles"
+    }
+```
+
+### **Working with custom styles (**`style.json`**)**
+
+Map styles (per the `style.json` schema) defines the visual appearance of a map: what data to draw on the map canvas, the order in which layers are displayed, and how to style the data when drawing it. Mapbox provides a helpful [guide](https://docs.mapbox.com/mapbox-gl-js/style-spec/) with all of the possible style parameters, but it's generally useful to download an existing `style.json` file and modify it to suit your needs.&#x20;
+
+One of the easiest ways to build a `style.json` file is by uploading and styling your data on [Mapbox Studio](http://mapbox.com/studio) and downloading the `style.json` file from there, in the following way:
 
 * Follow the map design process described [here](https://github.com/Terrastories/terrastories/blob/master/documentation/CUSTOMIZATION.md#setting-up-a-custom-map).
 * In the Mapbox Studio environment, click "Share" and then download the Map style ZIP file.
@@ -34,7 +47,7 @@ Map styles (per the `style.json` schema) defines the visual appearance of a map:
 
 Importantly, the layer names referenced in `styles` and `MBTiles` have to match, in order for the tiles to receive a style property. It may be necessary to edit the layer names in `style.json` to reflect the names of the spatial data in the `MBTiles` file.
 
-_Raster tiles_: If you have raster tiles that you want to load in Terrastories, those will need to defined differently from the vector tiles above. In `sources`, create a new source definition with `url` pointing to the raster `MBTiles` in the same format as above, `type` set to `raster`, and `tileSize` to `256`. Then, in `layers`, create a map object with your `id` of choice, `type` set to `raster`, and `source` set to the name of your raster tiles as defined in `sources`. Here is an example `style.json` file which only loads a raster `MBTiles`:
+_**Raster tiles**_: If you have raster tiles that you want to load in Terrastories, those will need to defined differently from the vector tiles above. In `sources`, create a new source definition with `url` pointing to the raster `MBTiles` in the same format as above, `type` set to `raster`, and `tileSize` to `256`. Then, in `layers`, create a map object with your `id` of choice, `type` set to `raster`, and `source` set to the name of your raster tiles as defined in `sources`. Here is an example `style.json` file which only loads a raster `MBTiles`:
 
 ```
 {
