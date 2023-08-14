@@ -30,27 +30,41 @@ Map styles (per the `style.json` schema) defines the visual appearance of a map:
 * Follow the map design process described [here](https://github.com/Terrastories/terrastories/blob/master/documentation/CUSTOMIZATION.md#setting-up-a-custom-map).
 * In the Mapbox Studio environment, click "Share" and then download the Map style ZIP file.
 * Unzip the file, and extract the `style.json` and place it in `tileserver/data/styles`.
-* Next, you will need to make some changes. The `style.json` from Mapbox will be referring to an online URL for the map sources. You need to change this to refer to the local `MBTiles`. Change `sources` > `composite` > `url` to the following format: `"url": "MBTiles://MBTiles/name.MBTiles"`. (Here, `name` is just an example; it can be called whatever you want, so long as the filename is the same.)
+* Next, you will need to make some changes. The `style.json` from Mapbox will be referring to an online URL for the map sources. You need to change this to refer to the local `MBTiles`. Change `sources` > `composite` > `url` to the following format: `"url": "mbtiles://mbtiles/name.mbtiles"`. (Here, `name` is just an example; it can be called whatever you want, so long as the filename is the same.)
 
 Importantly, the layer names referenced in `styles` and `MBTiles` have to match, in order for the tiles to receive a style property. It may be necessary to edit the layer names in `style.json` to reflect the names of the spatial data in the `MBTiles` file.
 
-_Raster tiles_: If you have raster tiles that you want to load in Terrastories, those will need to defined differently from the vector tiles above. In `sources`, create a new source definition with `url` pointing to the raster `MBTIles` in the same format as above, `type` set to `raster`, and `tileSize` to `256`. Then, in `layers`, create a map object with your `id` of choice, `type` set to `raster`, and `source` set to the name of your raster tiles as defined in `sources`. Here is an example:
+_Raster tiles_: If you have raster tiles that you want to load in Terrastories, those will need to defined differently from the vector tiles above. In `sources`, create a new source definition with `url` pointing to the raster `MBTiles` in the same format as above, `type` set to `raster`, and `tileSize` to `256`. Then, in `layers`, create a map object with your `id` of choice, `type` set to `raster`, and `source` set to the name of your raster tiles as defined in `sources`. Here is an example `style.json` file which only loads a raster `MBTiles`:
 
 ```
-    "sources": {
-        "raster-tiles": {
-            "url": "mbtiles://mbtiles/raster.mbtiles",
-            "type": "raster"
-			"tileSize": 256
-        }
-     },
-     "layers": [
-         {
-             "id": "raster-background",
-             "type": "raster",
-             "source": "raster-tiles"
-         },
+{
+  "version": 8,
+  "name": "Terrastories offline raster map",
+  "sources": {
+    "terrastories-raster-mbtiles": {
+      "type": "raster",
+      "url": "mbtiles://{terrastories-map}",
+      "tileSize": 256
+    }
+  },
+  "sprite": "sprite",
+  "glyphs": "{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {"background-color": "hsl(47, 26%, 88%)"}
+    },
+    {
+      "id": "terrastories-raster-mbtiles",
+      "type": "raster",
+      "source": "terrastories-raster-mbtiles"
+    }
+  ],
+  "id": "basic"
+}
+
 ```
 
-You can define multiple `mbtiles` sources (vector as well as raster), and place your raster tile layer underneath vector layers. This is a good way to have an offline satellite imagery basemap with vector data (points, lines, polygons, and labels) overlaid on top of it.
+If you want, you can add additional `mbtiles` sources (vector as well as raster), and place your raster tile layer underneath vector layers. This is a good way to have an offline satellite imagery basemap with vector data (points, lines, polygons, and labels) overlaid on top of it.
 
