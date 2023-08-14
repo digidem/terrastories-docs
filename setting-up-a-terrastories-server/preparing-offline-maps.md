@@ -40,12 +40,16 @@ Map styles (per the `style.json` schema) defines the visual appearance of a map:
 
 One of the easiest ways to build a `style.json` file is by uploading and styling your data on [Mapbox Studio](http://mapbox.com/studio) and downloading the `style.json` file from there, in the following way:
 
-* Follow the map design process described [here](https://github.com/Terrastories/terrastories/blob/master/documentation/CUSTOMIZATION.md#setting-up-a-custom-map).
-* In the Mapbox Studio environment, click "Share" and then download the Map style ZIP file.
+* Design your map in Mapbox Studio. Mapbox provides extensive documentation and tutorials on using Studio [here](https://docs.mapbox.com/studio-manual/guides/).
+* When you are done designing your map in the Mapbox Studio environment, click "Share" and then download the Map style ZIP file.
 * Unzip the file, and extract the `style.json` and place it in `tileserver/data/styles`.
 * Next, you will need to make some changes. The `style.json` from Mapbox will be referring to an online URL for the map sources. You need to change this to refer to the local `MBTiles`. Change `sources` > `composite` > `url` to the following format: `"url": "mbtiles://mbtiles/name.mbtiles"`. (Here, `name` is just an example; it can be called whatever you want, so long as the filename is the same.)
 
 Importantly, the layer names referenced in `styles` and `MBTiles` have to match, in order for the tiles to receive a style property. It may be necessary to edit the layer names in `style.json` to reflect the names of the spatial data in the `MBTiles` file.
+
+{% hint style="info" %}
+Note: it is also possible to use [Maputnik](https://maputnik.github.io/), the open-source visual editor for the Mapbox style specification, to style your `MBTiles`data.
+{% endhint %}
 
 _**Raster tiles**_: If you have raster tiles that you want to load in Terrastories, those will need to defined differently from the vector tiles above. In `sources`, create a new source definition with `url` pointing to the raster `MBTiles` in the same format as above, `type` set to `raster`, and `tileSize` to `256`. Then, in `layers`, create a map object with your `id` of choice, `type` set to `raster`, and `source` set to the name of your raster tiles as defined in `sources`. Here is an example `style.json` file which only loads a raster `MBTiles`:
 
