@@ -10,7 +10,7 @@ All of our developer onboarding documentation is on our Github.
 
 Please see our [Wiki](https://github.com/terrastories/terrastories/wikihttps://github.com/terrastories/terrastories/wiki), and read our [How to Contribute](https://github.com/Terrastories/terrastories#contributing) guide for more information on Terrastories development.
 
-**Roadmap:** to learn about current open source development work or where we're headed, check out our [Vision Statement](https://github.com/Terrastories/terrastories/wiki/Vision-Statement) and our [Roadmap](https://github.com/Terrastories/terrastories/wiki/Terrastories-Roadmap) (updated December 2022).
+**Roadmap:** to learn about current open source development work or where we're headed, check out our [Vision Statement](https://github.com/Terrastories/terrastories/wiki/Vision-Statement) and our [Roadmap](https://rudokemper.notion.site/rudokemper/9b66a992e88c453da974d583651e098d?v=058ca47b36774a8983dbd9e36d37396c).
 
 **Community:** join us [on Github](https://github.com/terrastories/terrastories) or in the [Ruby for Good Slack](https://rubyforgood.slack.com/join/shared\_invite/zt-1kfeimohe-KL\~\~\~6Lkof7G94\_7Ojd\_Hw#/shared-invite/email) #terrastories channel.
 
