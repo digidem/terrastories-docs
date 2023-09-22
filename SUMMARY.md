@@ -28,6 +28,7 @@
   * [🌐 Hosting Terrastories online](setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-online.md)
   * [🛖 Hosting Terrastories offline as a "Field Kit"](setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-offline-as-a-field-kit.md)
   * [🖧 Hosting Terrastories on a mesh network](setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-on-a-mesh-network.md)
+  * [🍫 Hosting Terrastories on Kakawa (Earth Defenders Toolkit Offline)](setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-on-kakawa-earth-defenders-toolkit-offline.md)
 * [Preparing offline maps](setting-up-a-terrastories-server/preparing-offline-maps.md)
 * [Navigating the Super Admin dashboard](setting-up-a-terrastories-server/navigating-the-super-admin-dashboard.md)
 
