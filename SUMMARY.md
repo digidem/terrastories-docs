@@ -44,5 +44,5 @@
 
 ***
 
-* [Terrastories website](https://terrastories.io)
+* [Terrastories website](https://terrastories.app)
 * [our.terrastories.app](https://our.terrastories.app)

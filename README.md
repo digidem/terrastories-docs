@@ -19,7 +19,7 @@ The site is divided into the following sections:
 * [Broken link](broken-reference "mention")\
   Basic information about Terrastories, FAQs, how to get started, and our demo.\
 
-* ****[Broken link](broken-reference "mention")\
+* [Broken link](broken-reference "mention")\
   Detailed instructions for using Terrastories, including the main interface, the member dashboard, and how to operate an offline Terrastories "Field Kit" once set up.\
 
 * [Broken link](broken-reference "mention")\
@@ -45,4 +45,3 @@ _Terrastories is a project currently being stewarded by Digital Democracy, a non
 
 <figure><img src=".gitbook/assets/terrastories watercolor.jpg" alt=""><figcaption><p>Terrastories watercolor by Jennifer Lu, made on the occasion of Ruby by the Bay 2019.</p></figcaption></figure>
 
-__
