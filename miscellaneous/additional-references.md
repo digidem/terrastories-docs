@@ -10,6 +10,7 @@ description: >-
 
 ### Overview
 
+* [What is the Earth Defenders Toolkit?](https://www.youtube.com/watch?v=i2VHSX6rLCg) | **Digital Democracy 2023** (documentary about an earth defenders retreat in Ecuador with testimonies about Terrastories) EN
 * :arrow\_forward: [Mapping your place-based oral histories with Terrastories](https://www.youtube.com/watch?v=cybEjHDFKAA) | **Indigenous Mapping Workshop 2021** (46-min video of a practical workshop) \[EN]
 * :arrow\_forward: [Terrastories Demo](https://www.youtube.com/watch?v=jiWVxZefNGk) | **Indigenous Mapping Workshop 2020** (16 min-video) \[EN]
 * :arrow\_forward: [Lightning Talk: Terrastories](https://youtu.be/ThAHqHxmEPk) | **MozFest 2022** (7-min video) \[EN]
