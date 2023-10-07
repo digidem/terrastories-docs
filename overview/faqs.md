@@ -6,6 +6,7 @@ For help with technical issues using Terrastories, see the [troubleshooting](../
 
 * [Who made Terrastories? ](faqs.md#who-made-terrastories)
 * [Is Terrastories free to use? ](faqs.md#is-terrastories-free-to-use)
+* [Where can I check out Terrastories in action?](faqs.md#where-can-i-check-out-terrastories-in-action)
 * [How do you install Terrastories? ](faqs.md#how-do-you-install-terrastories)
 * [What is the difference between Terrastories and story maps? ](faqs.md#what-is-the-difference-between-terrastories-and-story-maps)
 * [Is Terrastories a data collection tool? ](faqs.md#is-terrastories-a-data-collection-tool)
@@ -31,6 +32,14 @@ We would like to acknowledge a past team of stewards who were pivotal to the ear
 ## Is Terrastories free to use?
 
 Yes, Terrastories is free to install and use, and our [license](https://github.com/Terrastories/terrastories/blob/master/LICENSE) permits open modification and distribution.
+
+## Where can I check out Terrastories in action?
+
+There are two ways to check out Terrastories in action.&#x20;
+
+You can explore the main application (both the front-end map and the content management system) by logging in to the [terrastories-demo.md](terrastories-demo.md "mention").&#x20;
+
+You can also explore a number of communities that have opted in to share some of their content with a greater public on :earth\_africa: [**Explore Terrastories**](https://explore.terrastories.app/).
 
 ## How do you install Terrastories?
 
@@ -82,7 +91,7 @@ When installed for offline usage, Terrastories may be run through the browser mu
 
 Terrastories is built so you can control who has access to your data. You can restrict access to your stories by setting them to only be viewable by community members, editors, or admins. For more about this, see [setting-up-users-and-roles.md](../using-terrastories/using-the-terrastories-member-dashboard/setting-up-users-and-roles.md "mention").
 
-You can also set your community to be viewable by the public, or not. If there _is_ a public view, only unrestricted stories are shown, and you can ensure that the background map is different from your community view. For more about this, see [setting-up-a-public-view-for-your-community.md](../using-terrastories/using-the-terrastories-member-dashboard/setting-up-a-public-view-for-your-community.md "mention").
+You can also set your community to be viewable by the public, or not. If there _is_ a public view, only unrestricted stories are shown, and you can ensure that the background map is different from your community view. For more about this, see [setting-up-an-explore-terrastories-view-for-your-community.md](../using-terrastories/using-the-terrastories-member-dashboard/setting-up-an-explore-terrastories-view-for-your-community.md "mention").
 
 Lastly, the _super admin_ of a Terrastories server does not have access to your data. Through the [navigating-the-super-admin-dashboard.md](../setting-up-a-terrastories-server/navigating-the-super-admin-dashboard.md "mention"), a Terrastories _super admin_ may view some basic metrics about your community like how many stories, places, and speakers have been created, and the last time the community has had some activity; but the data itself is not accessible to the _super admin_.
 

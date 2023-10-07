@@ -6,9 +6,9 @@ Before getting started working with Terrastories, you may want to first check ou
 
 You might be wondering how you can get started using Terrastories, or just to try it out without committing to setting up your own Terrastories server.&#x20;
 
-Digital Democracy does maintain an online Terrastories server at [https://our.terrastories.app](https://our.terrastories.app). There are a number of Indigenous and other communities actively using this server.
+Digital Democracy does maintain an online Terrastories server at [**our.terrastories.app**](https://our.terrastories.app). There are a number of Indigenous and other communities actively using this server. You can also explore any public-facing stories from this server at [**explore.terrastories.app**](https://explore.terrastories.app/).
 
-Currently, we don't have open subscriptions to create your own account on this server, because we are paying for it, and we don't have a clear way to charge for usage (yet).
+Currently, we don't have open registration to create your own account on this server, because we are paying for it, and we don't have a clear way to charge for usage (yet).
 
 If you would like to request a community account on our server, even if just to try out the application, please [write to us ](mailto:info@digital-democracy.org)and let us know how you plan to use the online server. We'd be happy to create an account for you.
 

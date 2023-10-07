@@ -43,7 +43,7 @@ Your answer to the first question "Setup for offline 'Field kit' mode?" should b
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-Next, depending on whether you already have offline tiles downloaded and placed in the `tileserver/data/` directory, the script will offer to download the Terrastories default offline tiles for you. This is optional. For more information on the Terrastories default offline tiles, and offline maps in general, see [preparing-offline-maps.md](../preparing-offline-maps.md "mention").
+Next, depending on whether you already have offline tiles downloaded and placed in the `tileserver/data/` directory, the script will offer to download the Terrastories default offline tiles for you. This is optional. For more information on the Terrastories default offline tiles, and offline maps in general, see [preparing-offline-maps.md](../../operating-terrastories-offline/preparing-offline-maps.md "mention").
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 

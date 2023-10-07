@@ -4,11 +4,15 @@
 This page may require some technical knowledge about geospatial data. If the content of this page feels unfamiliar to you, get someone acquainted with geographic information systems (GIS) to help you.
 {% endhint %}
 
+{% hint style="info" %}
+If you have gone through all the below steps and your offline maps are _still_ not showing up, you might be facing a commonly encountered issue described here: [offline-map-tiles-are-not-showing-up.md](../miscellaneous/troubleshooting/offline-map-tiles-are-not-showing-up.md "mention")
+{% endhint %}
+
 For offline or mesh network usage, Terrastories can load a background map using an open-source map tileserver called TileServer-GL and locally hosted map tiles, instead of a map from Mapbox. This requires you to provide your own locally hosted map tiles.
 
 Terrastories does provide a default set of open-license offline map tiles, generated through the [OpenMapTiles API](https://openmaptiles.org/). These tiles cover the entire world, but are only compiled up to zoom level 8 (roughly the extent of a small country like Rwanda, Costa Rica, Slovenia or Bhutan). Once you zoom in past zoom level 8, no further level of detail will show.
 
-When you set up Terrastories for [hosting-terrastories-offline-as-a-field-kit.md](hosting-environments/hosting-terrastories-offline-as-a-field-kit.md "mention") or [hosting-terrastories-on-a-mesh-network.md](hosting-environments/hosting-terrastories-on-a-mesh-network.md "mention"), you will be given the option to use these default offline map tiles. However, you can also provide your own map tiles, which have to be in a [`mbtiles` format](https://docs.mapbox.com/help/glossary/mbtiles/), and provided alongside any map fonts, sprites, and a `style.json` file where the `mbtiles` file is placed on a map canvas.
+When you set up Terrastories for [hosting-terrastories-offline-as-a-field-kit.md](../setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-offline-as-a-field-kit.md "mention") or [hosting-terrastories-on-a-mesh-network.md](../setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-on-a-mesh-network.md "mention"), you will be given the option to use these default offline map tiles. However, you can also provide your own map tiles, which have to be in a [`mbtiles` format](https://docs.mapbox.com/help/glossary/mbtiles/), and provided alongside any map fonts, sprites, and a `style.json` file where the `mbtiles` file is placed on a map canvas.
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Our setup script, which detects if you already have a <code>style.json</code> file in your <code>tileserver/data</code> directory, and if not, downloads the default offline tiles for you.</p></figcaption></figure>
 

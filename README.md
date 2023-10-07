@@ -26,6 +26,9 @@ The site is divided into the following sections:
   Guides for the different ways that you can set up your own Terrastories server in different environments (online, offline "Field Kit", and community mesh network); about offline maps; about the super admin dashboard.\
 
 * [Broken link](broken-reference "mention")\
+  An overview of the Explore Terrastories application, including how to set it up and configure for usage, and how to use it once set up.\
+
+* [Broken link](broken-reference "mention")\
   Other pages on support, troubleshooting, translation, additional references, information for developers, and more.
 
 ### Use of this guide
@@ -41,7 +44,7 @@ We strive to make our tools & resources accessible and available to communities 
 
 Terrastories and all of Digital Democracy's technical development is open source. Visit the [FOR DEVELOPERS](miscellaneous/for-developers.md) section for more information.
 
-_Terrastories is a project currently being stewarded by Digital Democracy, a non-profit organization that partners with earth defenders to co-develop technology for social justice. For more information on Digital Democracy, and how to support our user-centered co-development process visit_ [_our website_](https://www.digital-democracy.org)_._
+_Terrastories is a project currently being stewarded by Digital Democracy, a non-profit organization that partners with earth defenders to co-develop technology for social justice, together with a team of volunteer stewards. For more information on Digital Democracy, and how to support our user-centered co-development process visit_ [_our website_](https://www.digital-democracy.org)_._
 
 <figure><img src=".gitbook/assets/terrastories watercolor.jpg" alt=""><figcaption><p>Terrastories watercolor by Jennifer Lu, made on the occasion of Ruby by the Bay 2019.</p></figcaption></figure>
 

@@ -10,7 +10,7 @@ description: >-
 
 ### Overview
 
-* [What is the Earth Defenders Toolkit?](https://www.youtube.com/watch?v=i2VHSX6rLCg) | **Digital Democracy 2023** (documentary about an earth defenders retreat in Ecuador with testimonies about Terrastories) EN
+* :arrow\_forward: [What is the Earth Defenders Toolkit?](https://www.youtube.com/watch?v=i2VHSX6rLCg) | **Digital Democracy 2023** (documentary about an earth defenders retreat in Ecuador with testimonies about Terrastories) \[EN]
 * :arrow\_forward: [Mapping your place-based oral histories with Terrastories](https://www.youtube.com/watch?v=cybEjHDFKAA) | **Indigenous Mapping Workshop 2021** (46-min video of a practical workshop) \[EN]
 * :arrow\_forward: [Terrastories Demo](https://www.youtube.com/watch?v=jiWVxZefNGk) | **Indigenous Mapping Workshop 2020** (16 min-video) \[EN]
 * :arrow\_forward: [Lightning Talk: Terrastories](https://youtu.be/ThAHqHxmEPk) | **MozFest 2022** (7-min video) \[EN]
@@ -18,6 +18,7 @@ description: >-
 
 ### Examples of Terrastories projects
 
+* :earth\_africa: [Explore Terrastories](https://explore.terrastories.app/) | Explore multiple communities worldwide that have opted to share some of their content with a greater public
 * :book: [Matawai: Place-based storytelling in Suriname](https://www.earthdefenderstoolkit.com/community/matawai-place-based-storytelling-in-suriname/) (case study) \[EN / ES / PT / FR / KM / SW / TH / VI]
 * :book: [Ohneganos: Indigenous mapping](https://www.ohneganos.com/indigenous-mapping) \[EN]
 

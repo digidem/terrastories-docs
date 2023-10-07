@@ -21,10 +21,10 @@ You can access links to other views on the left side. Currently, these are:
 
 * **Users**: the users that have access to your community, and their respective roles. \
   _See_ [setting-up-users-and-roles.md](setting-up-users-and-roles.md "mention") _for more information._\
-  __
+
 * **Theme**: settings for your community theme, and map.\
   _See_ [customizing-your-community-theme.md](customizing-your-community-theme.md "mention") _and_ [modifying-map-settings.md](modifying-map-settings.md "mention") _for more information._\
-  __
+
 * **Import**: a dashboard for importing data in CSV format.\
   _See_ [importing-data.md](importing-data.md "mention") _for more information._\
 

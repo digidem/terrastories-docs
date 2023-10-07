@@ -17,10 +17,20 @@
   * [Exploring and creating stories, speakers, and places](using-terrastories/using-the-terrastories-member-dashboard/exploring-and-creating-stories-speakers-and-places.md)
   * [Customizing your community theme](using-terrastories/using-the-terrastories-member-dashboard/customizing-your-community-theme.md)
   * [Setting up users and roles](using-terrastories/using-the-terrastories-member-dashboard/setting-up-users-and-roles.md)
-  * [Setting up a public view for your community](using-terrastories/using-the-terrastories-member-dashboard/setting-up-a-public-view-for-your-community.md)
+  * [Setting up an Explore Terrastories view for your community](using-terrastories/using-the-terrastories-member-dashboard/setting-up-an-explore-terrastories-view-for-your-community.md)
   * [Modifying map settings](using-terrastories/using-the-terrastories-member-dashboard/modifying-map-settings.md)
   * [Importing data](using-terrastories/using-the-terrastories-member-dashboard/importing-data.md)
-* [Operating an offline Terrastories "Field Kit"](using-terrastories/operating-an-offline-terrastories-field-kit.md)
+
+## EXPLORE TERRASTORIES
+
+* [What is Explore Terrastories?](explore-terrastories/what-is-explore-terrastories.md)
+* [Exploring the Explore Terrastories interface](explore-terrastories/exploring-the-explore-terrastories-interface.md)
+* [Setting up Explore Terrastories for your community](explore-terrastories/setting-up-explore-terrastories-for-your-community.md)
+
+## Operating Terrastories Offline
+
+* [Operating an offline Terrastories "Field Kit"](operating-terrastories-offline/operating-an-offline-terrastories-field-kit.md)
+* [Preparing offline maps](operating-terrastories-offline/preparing-offline-maps.md)
 
 ## SETTING UP A TERRASTORIES SERVER
 
@@ -29,8 +39,8 @@
   * [🛖 Hosting Terrastories offline as a "Field Kit"](setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-offline-as-a-field-kit.md)
   * [🖧 Hosting Terrastories on a mesh network](setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-on-a-mesh-network.md)
   * [🍫 Hosting Terrastories on Kakawa (Earth Defenders Toolkit Offline)](setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-on-kakawa-earth-defenders-toolkit-offline.md)
-* [Preparing offline maps](setting-up-a-terrastories-server/preparing-offline-maps.md)
 * [Navigating the Super Admin dashboard](setting-up-a-terrastories-server/navigating-the-super-admin-dashboard.md)
+* [Setting up an Explore Terrastories server](setting-up-a-terrastories-server/setting-up-an-explore-terrastories-server.md)
 
 ## MISCELLANEOUS
 

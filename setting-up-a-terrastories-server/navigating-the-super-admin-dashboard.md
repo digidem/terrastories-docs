@@ -12,7 +12,9 @@ You can log in as super admin through the same login screen as for regular commu
 
 ### Super admin dashboard
 
-Once you have logged in with a super admin credential, you will access the super admin dashboard. At this time, there are only a few dashboard views available to super admins. The two that will be discussed in this guide are **Metrics** and **Communities**.
+Once you have logged in with a super admin credential, you will access the super admin dashboard. At this time, there are only a few dashboard views available to super admins. The three that will be discussed in this guide are **Metrics**, **Communities**, and **Features**.
+
+#### Metrics
 
 The **metrics** dashboard provides an aggregate of all communities, stories, places, speakers, and users on the server. This can be used by the administrator of the server to keep track of, and report on, the data being provisioned by their Terrastories server.
 
@@ -41,13 +43,27 @@ From the community view, it is also possible to create a new community. The fiel
 * **Locale**: the language used by the community, by language ISO code (e.g. `en`, `es`, `pt`, `sw`, `pu`...). In the future, we may use this to set a default language for a community when logged in.
 * **Username** (required): This will be an admin user of the community, used to log in to the community and to create other users, and set theme and map settings.
 * **Password** (required): The password for the admin user for the community.
-* **Email**: **** Email address associated with the admin user. This can be used to send emails by the Terrastories in the future, for example, for the purposes of resetting a password.
+* **Email**: Email address associated with the admin user. This can be used to send emails by the Terrastories in the future, for example, for the purposes of resetting a password.
 
 <figure><img src="../.gitbook/assets/image (3).jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 In addition to editing, or creating communities, the super admin can also **delete** a community. Doing so may be desirable if there is a community that was e.g. created for demo purposes and is taking up unnecessary storage space. Doing so is NOT reversible so it is advisable to carefully consider whether this is the right decision.
 {% endhint %}
+
+### Features: working with feature flags
+
+In the **Features** view, we provide the option to add feature flags. Feature flags are a mechanism that we use to add new, custom, or beta features to a Terrastories server, before we make them available as a stable feature that you can toggle on and off.
+
+<figure><img src="../.gitbook/assets/Explore feature flags (5).jpg" alt=""><figcaption><p>Feature Flags showing <code>public_communities</code> enabled, which adds the <strong>Explore Terrastories</strong> opt-in functionality for communities.</p></figcaption></figure>
+
+You can add your own feature flags. They should be lower snake-case (e.g. cool\_feature) and correspond to actual feature flags that are registered in Terrastories. Currently, one example is `public_communities` which is what controls the opt-in functionality for [Broken link](broken-reference "mention").
+
+Once added, you can Enable / Disable the feature, and you can also turn it on for your entire Terrastorie server, or for selected groups of communities.
+
+You can also Enable / Disable feature flags per each individual community:
+
+<figure><img src="../.gitbook/assets/Explore community opt in.jpg" alt=""><figcaption><p><code>public_communities</code> enabled for the Terrastories demo community, which means they will now see the Explore Terrastories opt-in functionality on their Settings page.</p></figcaption></figure>
 
 ### Default super admin on a new Terrastories server
 

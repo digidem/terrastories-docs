@@ -52,7 +52,7 @@ The main Terrastories interface is mobile and tablet accessible. Here is a scree
 Once you have clicked or pressed on **Enter Site** via the Welcome page, you will arrive at the main Terrastories interface, which is composed of several elements:
 
 * An **interactive map**, composed of both a background map and _Storied Place Markers_.
-* On the left, a **sidebar** with a _Story List_ composed of _Story Cards_, as well as _Filter Dropdowns_ to filter content on both the Story List __ and the Storied Place Markers on the interactive map.&#x20;
+* On the left, a **sidebar** with a _Story List_ composed of _Story Cards_, as well as _Filter Dropdowns_ to filter content on both the Story List and the Storied Place Markers on the interactive map.&#x20;
 * On the bottom right, an **introduction modal** about Terrastories which can be closed.
 * On the top right, an **inset mini-map**, and **map controls** for returning to the default map center and zoom level, zooming in and out, and changing and the map pitch.
 

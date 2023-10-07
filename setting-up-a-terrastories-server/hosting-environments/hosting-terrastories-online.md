@@ -88,4 +88,3 @@ Lastly, as of March 2022, currently Heroku apps with a `heroku-20` stack are not
 Now you are ready to deploy. In the Deploy section, choose the branch that you want to deploy, either via Automatic Deployment or Manual.
 
 Once you have successfully deployed, one task remains: seeding the database so you can access the Terrastories `super admin` to start creating communities. To do this, click on the More button on the right right and then Run Console. Enter the following command: `rake db:seed`. Once that finishes, your app should be all set up. You can find the URL of your Terrastories server in the Settings section in Heroku.\
-****

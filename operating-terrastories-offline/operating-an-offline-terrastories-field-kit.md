@@ -1,7 +1,9 @@
 # Operating an offline Terrastories "Field Kit"
 
 {% hint style="info" %}
-These instructions are for operating an offline Terrastories "Field Kit" device once it has been set up for you. If you need to set one up, or pass along instructions to someone with an IT background that can help you, please refer to [hosting-terrastories-offline-as-a-field-kit.md](../setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-offline-as-a-field-kit.md "mention").
+These instructions are for operating an offline Terrastories "Field Kit" device once it has been set up for you. If you need to set one up, or pass along instructions to someone with an IT background that can help you, please refer to [hosting-terrastories-offline-as-a-field-kit.md](../setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-offline-as-a-field-kit.md "mention"). \
+\
+There is also the option of [hosting-terrastories-on-kakawa-earth-defenders-toolkit-offline.md](../setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-on-kakawa-earth-defenders-toolkit-offline.md "mention")
 {% endhint %}
 
 Terrastories works on a mini-computer, which transmits a WiFi signal that other devices can use to open the application. We call this a :hut: Terrastories "Field Kit."
@@ -20,7 +22,11 @@ All you need to do is turn on the mini-computer, connect to the WiFi, and you ca
 
 The button will light up, indicating that the mini-computer has started.
 
+<div align="center">
+
 <figure><img src="../.gitbook/assets/20190726_155505.jpg" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### **STEP 3.** After about 30 seconds, you can connect to the Terrastories WiFi with your device.
 

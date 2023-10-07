@@ -6,7 +6,7 @@ This page may require some technical knowledge about server hosting and deployme
 
 _This workflow is for hosting your own Terrastories server offline on a device like a mini-computer (NUC) running Linux._
 
-The Terrastories "Field Kit" hosting environment is designed to allow one mini-computer device to serve as a hotspot through which other devices can get access to Terrastories. For more on how this works in practice, see [operating-an-offline-terrastories-field-kit.md](../../using-terrastories/operating-an-offline-terrastories-field-kit.md "mention").
+The Terrastories "Field Kit" hosting environment is designed to allow one mini-computer device to serve as a hotspot through which other devices can get access to Terrastories. For more on how this works in practice, see [operating-an-offline-terrastories-field-kit.md](../../operating-terrastories-offline/operating-an-offline-terrastories-field-kit.md "mention").
 
 The way to set this up requires use of command-line shell (sometimes known as terminal). Fortunately, we've made it easy to go through most of the process by means of an easy setup script. For anyone wishing to go through the setup process in a more granular way, please refer to our [documentation for developers on Github](https://github.com/Terrastories/terrastories).
 
@@ -45,7 +45,7 @@ Your answer to the first question "Setup for offline 'Field kit' mode?" should b
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-Next, depending on whether you already have offline tiles downloaded and placed in the `tileserver/data/` directory, the script will offer to download the Terrastories default offline tiles for you. This is optional. For more information on the Terrastories default offline tiles, and offline maps in general, see [preparing-offline-maps.md](../preparing-offline-maps.md "mention").
+Next, depending on whether you already have offline tiles downloaded and placed in the `tileserver/data/` directory, the script will offer to download the Terrastories default offline tiles for you. This is optional. For more information on the Terrastories default offline tiles, and offline maps in general, see [preparing-offline-maps.md](../../operating-terrastories-offline/preparing-offline-maps.md "mention").
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
@@ -86,7 +86,7 @@ Make sure there are no other entries for `terrastories.local`
 
 #### Configure your hotspot
 
-First, you can create and turn on a Hotspot using the Linux operating system user interface. Modify the Hotspot name and password to be something easy to remember for anyone that is [operating-an-offline-terrastories-field-kit.md](../../using-terrastories/operating-an-offline-terrastories-field-kit.md "mention").
+First, you can create and turn on a Hotspot using the Linux operating system user interface. Modify the Hotspot name and password to be something easy to remember for anyone that is [operating-an-offline-terrastories-field-kit.md](../../operating-terrastories-offline/operating-an-offline-terrastories-field-kit.md "mention").
 
 <figure><img src="../../.gitbook/assets/Screenshot from 2022-11-23 16-15-29.png" alt=""><figcaption></figcaption></figure>
 
@@ -110,11 +110,11 @@ sudo apt-get install ubuntu-restricted-extras
 
 #### Bypass login screen on boot
 
-For the [operating-an-offline-terrastories-field-kit.md](../../using-terrastories/operating-an-offline-terrastories-field-kit.md "mention") workflow, it will be helpful to bypass the operating system login screen, since the device will be turned on without keyboard, mouse, or monitor. Here is a [guide for bypassing login screen on boot](https://askubuntu.com/questions/256239/how-to-bypass-login-screen-on-boot).
+For the [operating-an-offline-terrastories-field-kit.md](../../operating-terrastories-offline/operating-an-offline-terrastories-field-kit.md "mention") workflow, it will be helpful to bypass the operating system login screen, since the device will be turned on without keyboard, mouse, or monitor. Here is a [guide for bypassing login screen on boot](https://askubuntu.com/questions/256239/how-to-bypass-login-screen-on-boot).
 
 #### Set operating system to shutdown upon pressing power button
 
-Similarly, for the [operating-an-offline-terrastories-field-kit.md](../../using-terrastories/operating-an-offline-terrastories-field-kit.md "mention"), it will be helpful to set the operating system to bypass any logout screen and shut down right away upon pressing the power button, since the device will be operated without keyboard, mouse, or monitor.&#x20;
+Similarly, for the [operating-an-offline-terrastories-field-kit.md](../../operating-terrastories-offline/operating-an-offline-terrastories-field-kit.md "mention"), it will be helpful to set the operating system to bypass any logout screen and shut down right away upon pressing the power button, since the device will be operated without keyboard, mouse, or monitor.&#x20;
 
 In Ubuntu 18.04 or any similar Linux variants with acpi, use a text editor tool to create a file called `/etc/acpi/events/power` and enter the following in the content:
 
@@ -149,4 +149,4 @@ docker compose --profile offline up
 
 And keep the service running. Every time that you shut down the machine, and turn it on again, Terrastories will restart by default, so you don't need to worry about any additional setup.&#x20;
 
-You may now proceed to show anyone administering the offline Terrastories "Field Kit" process the workflow for [operating-an-offline-terrastories-field-kit.md](../../using-terrastories/operating-an-offline-terrastories-field-kit.md "mention"), which does not require any technical knowledge.
+You may now proceed to show anyone administering the offline Terrastories "Field Kit" process the workflow for [operating-an-offline-terrastories-field-kit.md](../../operating-terrastories-offline/operating-an-offline-terrastories-field-kit.md "mention"), which does not require any technical knowledge.
