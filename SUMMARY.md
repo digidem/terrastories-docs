@@ -49,7 +49,7 @@
   * [Offline map tiles are not showing up](miscellaneous/troubleshooting/offline-map-tiles-are-not-showing-up.md)
   * [Saving and printing Terrastories reference materials](miscellaneous/troubleshooting/saving-and-printing-terrastories-reference-materials.md)
 * [Translating Terrastories](miscellaneous/translating-terrastories.md)
-* [Additional references](miscellaneous/additional-references.md)
+* [Additional resources and references](miscellaneous/additional-resources-and-references.md)
 * [For developers](miscellaneous/for-developers.md)
 
 ***
