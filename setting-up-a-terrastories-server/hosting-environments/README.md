@@ -10,7 +10,7 @@ Currently, we have workflows, setup scripts, and documentation for the following
 
 * [hosting-terrastories-online.md](hosting-terrastories-online.md "mention")**:** It is relatively easy to deploy Terrastories online, as most web applications are created for online usage and so services like Heroku, DigitalOcean, and others are designed to easy online employment. We currently have instructions designed for Heroku (where Digital Democracy hosts the [https://our.terrastories.app](https://our.terrastories.app) server) and hope to have instructions for other services soon. \
 
-* [hosting-terrastories-offline-as-a-field-kit.md](hosting-terrastories-offline-as-a-field-kit.md "mention"): For an entirely offline use case, we have a workflow where Terrastories can be set up a computer which serves the application through a hotspot. Other devices connected to that hotspot can then load Terrastories through the browser.\
+* [hosting-terrastories-offline-as-a-field-kit](hosting-terrastories-offline-as-a-field-kit/ "mention"): For an entirely offline use case, we have a workflow where Terrastories can be set up a computer which serves the application through a hotspot. Other devices connected to that hotspot can then load Terrastories through the browser.\
 
 * [hosting-terrastories-on-a-mesh-network.md](hosting-terrastories-on-a-mesh-network.md "mention"): Terrastories can be set up on a local machine, which serves it through a mesh network that the machine is connected to. This can be an entirely offline mesh network, such as a [community network](https://www.apc.org/en/topic/community-networks) through where a number of other applications and services can be accessed in addition to Terrastories.\
 

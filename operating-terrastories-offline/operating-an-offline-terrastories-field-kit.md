@@ -1,7 +1,7 @@
 # Operating an offline Terrastories "Field Kit"
 
 {% hint style="info" %}
-These instructions are for operating an offline Terrastories "Field Kit" device once it has been set up for you. If you need to set one up, or pass along instructions to someone with an IT background that can help you, please refer to [hosting-terrastories-offline-as-a-field-kit.md](../setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-offline-as-a-field-kit.md "mention"). \
+These instructions are for operating an offline Terrastories "Field Kit" device once it has been set up for you. If you need to set one up, or pass along instructions to someone with an IT background that can help you, please refer to [hosting-terrastories-offline-as-a-field-kit](../setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-offline-as-a-field-kit/ "mention"). \
 \
 There is also the option of [hosting-terrastories-on-kakawa-earth-defenders-toolkit-offline.md](../setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-on-kakawa-earth-defenders-toolkit-offline.md "mention")
 {% endhint %}
