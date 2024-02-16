@@ -10,6 +10,6 @@ Digital Democracy does maintain an online Terrastories server at [**our.terrasto
 
 Currently, we don't have open registration to create your own account on this server, because we are paying for it, and we don't have a clear way to charge for usage (yet).
 
-If you would like to request a community account on our server, even if just to try out the application, please [write to us ](mailto:info@digital-democracy.org)and let us know how you plan to use the online server. We'd be happy to create an account for you.
+If you would like to request a community account on our server, even if just to try out the application, please [write to us ](mailto:info@digital-democracy.org)and briefly let us know how you plan to use the online server. We'd be happy to create an account for you.
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Login screen at https://our.terrastories.app</p></figcaption></figure>

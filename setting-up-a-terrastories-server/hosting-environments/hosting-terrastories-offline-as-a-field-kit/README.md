@@ -6,18 +6,18 @@ This page may require some technical knowledge about server hosting and deployme
 
 _This workflow is for hosting your own Terrastories server offline on a device like a mini-computer (NUC) running Linux._
 
-The Terrastories "Field Kit" hosting environment is designed to allow one mini-computer device to serve as a hotspot through which other devices can get access to Terrastories. For more on how this works in practice, see [operating-an-offline-terrastories-field-kit.md](../../../operating-terrastories-offline/operating-an-offline-terrastories-field-kit.md "mention").
+The Terrastories "Field Kit" hosting environment is designed to allow one mini-computer device to serve Terrastories as an offline server accessible locally, or a mesh network. There are also some additional steps you can take to get the device to serve a hotspot through which other devices can get access to Terrastories. For more on how this works in practice, see [operating-an-offline-terrastories-field-kit.md](../../../operating-terrastories-offline/operating-an-offline-terrastories-field-kit.md "mention").
 
 The way to set this up requires use of command-line shell (sometimes known as terminal). Fortunately, we've made it easy to go through most of the process by means of an easy setup script. For anyone wishing to go through the setup process in a more granular way, please refer to our [documentation for developers on Github](https://github.com/Terrastories/terrastories).
 
 {% hint style="info" %}
-It is possible to install Terrastories on Windows or Mac OS; however, this workflow has only been fully tested on a Linux OS, specifically Ubuntu 18.04 - 22.04. You may need to take different steps for some of the setup depending on the operating system; for example, the `hosts` and Hotspot network manager files may reside in a different location.
+It is possible to install Terrastories on Windows or Mac OS; however, this workflow has only been fully tested on a Linux OS. You may need to take different steps for some of the setup depending on the operating system; for example, the `hosts` and Hotspot network manager files may reside in a different location.
 {% endhint %}
 
 ## Prerequisites
 
-* **Install Docker:** To install Terrastories, your operating system first has to have Docker installed. The current version of Docker being used to deploy Terrastories as of December 2022 is v20.10.12.
-* **Install Docker Compose**: You also need Docker Compose v2 - v1 will not work with our Docker files. The current version of Docker Compose being used to deploy Terrastories as of December 2022 is v2.3.3
+* **Install Docker:** To install Terrastories, your operating system first has to have Docker installed. The current version of Docker being used to deploy Terrastories as of February 2024 is v25.0.3.
+* **Install Docker Compose**: You also need Docker Compose v2 (v1 will not work with our Docker files). The current version of Docker Compose being used to deploy Terrastories as of February 2024 is v2.24.5
 
 ## Install Terrastories
 
@@ -25,13 +25,35 @@ It is possible to install Terrastories on Windows or Mac OS; however, this workf
 Quick Install sets up a new database and utilizes Terrastories default map style. If you wish to use your own map style, please see [advanced setup](advanced-setup.md) for more information.
 {% endhint %}
 
+To quick install Terrastories for offline usage, run the following command in the terminal:
+
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Terrastories/offline-field-kit/main/install.sh)"
 ```
 
-This will download all of the appropriate Docker images and dependencies, and run through setting up Host domain and access at `terrastories.local`. Once complete, it will boot up your instance of Terrastories.
+This will download all of the appropriate Docker images and dependencies, and run through setting up Host domain and access at `terrastories.local`.&#x20;
 
-You can run your Terrastories instance at anytime using:
+Or, instead of running this command, you can also choose to use Git to clone the repository locally to your computer. (Or, you can download the offline field kit as a ZIP file from [our Github repository](https://github.com/terrastories/offline-field-kit) to get the application.) And then, once in the directory, run `bash install.sh`.
+
+Once you run the install script, you will be greeted with the following screen:
+
+<figure><img src="../../../.gitbook/assets/Screenshot from 2024-02-16 12-42-30.png" alt=""><figcaption></figcaption></figure>
+
+Press any key to start, and the script will install everything you need. Once complete, it will boot up your instance of Terrastories, which when completed will show the following on the terminal:
+
+<figure><img src="../../../.gitbook/assets/Screenshot from 2024-02-16 12-43-06.png" alt=""><figcaption></figcaption></figure>
+
+You can now access Terrastories in the browser at `terrastories.local`, where you will be greeted by the community setup screen:
+
+<figure><img src="../../../.gitbook/assets/Screenshot from 2024-02-16 12-43-22.png" alt=""><figcaption></figcaption></figure>
+
+Once you have set up a community, you may access the application, which will run with a default offline map:
+
+<figure><img src="../../../.gitbook/assets/Screenshot from 2024-02-16 12-44-04.png" alt=""><figcaption></figcaption></figure>
+
+If you want to use your own map, please see [advanced-setup.md](advanced-setup.md "mention").
+
+From here on, you can bring down your Terrastories instance by pressing Ctrl-C in the terminal. And you can run your Terrastories instance again at anytime using the following command (while in the directory):
 
 ```
 docker compose up

@@ -30,7 +30,7 @@
 ## Operating Terrastories Offline
 
 * [Operating an offline Terrastories "Field Kit"](operating-terrastories-offline/operating-an-offline-terrastories-field-kit.md)
-* [Preparing offline maps](operating-terrastories-offline/preparing-offline-maps.md)
+* [Preparing offline map packages](operating-terrastories-offline/preparing-offline-map-packages.md)
 
 ## SETTING UP A TERRASTORIES SERVER
 
@@ -38,7 +38,6 @@
   * [🌐 Hosting Terrastories online](setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-online.md)
   * [🛖 Hosting Terrastories offline as a "Field Kit"](setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-offline-as-a-field-kit/README.md)
     * [Advanced Setup](setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-offline-as-a-field-kit/advanced-setup.md)
-  * [🖧 Hosting Terrastories on a mesh network](setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-on-a-mesh-network.md)
   * [🍫 Hosting Terrastories on Kakawa (Earth Defenders Toolkit Offline)](setting-up-a-terrastories-server/hosting-environments/hosting-terrastories-on-kakawa-earth-defenders-toolkit-offline.md)
 * [Navigating the Super Admin dashboard](setting-up-a-terrastories-server/navigating-the-super-admin-dashboard.md)
 * [Setting up an Explore Terrastories server](setting-up-a-terrastories-server/setting-up-an-explore-terrastories-server.md)
@@ -48,8 +47,8 @@
 * [Support](miscellaneous/support.md)
 * [Troubleshooting](miscellaneous/troubleshooting/README.md)
   * [Offline map tiles are not showing up](miscellaneous/troubleshooting/offline-map-tiles-are-not-showing-up.md)
-  * [Saving and printing Terrastories reference materials](miscellaneous/troubleshooting/saving-and-printing-terrastories-reference-materials.md)
   * [Resetting passwords (using the Rails console)](miscellaneous/troubleshooting/resetting-passwords-using-the-rails-console.md)
+  * [Saving and printing Terrastories reference materials](miscellaneous/troubleshooting/saving-and-printing-terrastories-reference-materials.md)
 * [Translating Terrastories](miscellaneous/translating-terrastories.md)
 * [Additional resources and references](miscellaneous/additional-resources-and-references.md)
 * [For developers](miscellaneous/for-developers.md)

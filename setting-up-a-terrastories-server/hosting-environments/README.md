@@ -12,6 +12,4 @@ Currently, we have workflows, setup scripts, and documentation for the following
 
 * [hosting-terrastories-offline-as-a-field-kit](hosting-terrastories-offline-as-a-field-kit/ "mention"): For an entirely offline use case, we have a workflow where Terrastories can be set up a computer which serves the application through a hotspot. Other devices connected to that hotspot can then load Terrastories through the browser.\
 
-* [hosting-terrastories-on-a-mesh-network.md](hosting-terrastories-on-a-mesh-network.md "mention"): Terrastories can be set up on a local machine, which serves it through a mesh network that the machine is connected to. This can be an entirely offline mesh network, such as a [community network](https://www.apc.org/en/topic/community-networks) through where a number of other applications and services can be accessed in addition to Terrastories.\
-
 * :chocolate\_bar: **Hosting Terrastories on Kakawa (Earth Defenders Toolkit Offline)**: Terrastories also comes bundled on [_Kawaka_](https://www.earthdefenderstoolkit.com/deploy/). Please see the documentation for using Kakawa [here](https://docs.earthdefenderstoolkit.com/overview/introduction).\

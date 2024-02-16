@@ -1,86 +1,51 @@
 # Advanced Setup
 
-If you're familiar with Docker and Compose, or want to use custom maps or an existing database, you'll want to follow this advanced setup guide.
-
-## Prerequisites
-
-* **Install Docker:** To install Terrastories, your operating system first has to have Docker installed. The current version of Docker being used to deploy Terrastories as of December 2022 is v20.10.12.
-* **Install Docker Compose**: You also need Docker Compose v2 - v1 will not work with our Docker files. The current version of Docker Compose being used to deploy Terrastories as of December 2022 is v2.3.3
-
-## Manual Setup
-
-Clone the repository locally to your computer. (Or, you can download the offline field kit as a ZIP file from [our Github repository](https://github.com/terrastories/offline-field-kit) to get the application.)
-
-Once you have everything downloaded, update the configuration desired below:
-
-### Custom Map Package
+## Use a custom offline map package
 
 {% hint style="info" %}
-If you already have a custom map style package, you can proceed. Skip this configuration if you are comfortable using the default maps. Or, [prepare your own map style](../../../operating-terrastories-offline/preparing-offline-maps.md) for offline use and come back.
+If you already have a custom map style package, you can proceed. Skip this configuration if you are comfortable using the default maps. Or, [prepare your own map package](../../../operating-terrastories-offline/preparing-offline-map-packages.md) for offline use and come back.
 {% endhint %}
 
-Create the necessary `tileserver` directory and `data` subdirectory and add your map package to the `tileserver/data` folder. You can [prepare your own](../../../operating-terrastories-offline/preparing-offline-maps.md) or download our default map package [here](https://github.com/Terrastories/default-offline-map/). Your folder structure should look like:
+Add your map package to the `map/data` folder. You can [prepare your own](../../../operating-terrastories-offline/preparing-offline-map-packages.md) or download our default map package [here](https://github.com/Terrastories/default-offline-map/). Your `map/data` folder structure should look like:
 
 ```
 
-tileserver/
-└── data/
-    ├── fonts/
-    │   └── ...
-    ├── sprites/
-    │   ├── sprite.png
-    │   └── ...
-    ├── mbtiles/
-    │   └── tiles.mbtiles
-    ├── styles/
-    │   └── style.json
-    └── config.json
+data/
+├── fonts/
+│   └── Font Name/
+│       ├── font.pbf
+│       └── ...
+├── sprites/
+│   ├── sprite.png
+│   └── ...
+├── tiles.pmtiles
+├── style.json
+└── config.json
 ```
 
-If your map package does not have a `config.json` file, create one at the root of your `tileserver/data` folder. It should look something like this, depending on your package files and configuration:
+{% hint style="info" %}
+The three files that are absolutely required are `style.json`, `config.json`, and one or more tile sources (in `mbtiles` or `pmtiles` format). Fonts and sprites are only needed if your style is using them.&#x20;
+{% endhint %}
+
+Your style specification must include reference to the name of your style:
 
 ```json
 {
-  "options": {
-    "paths": {
-      "fonts": "fonts",
-      "sprites": "sprites"
-    },
-    "serveAllFonts": true
-  },
-  "data": {
-    "your-map-style": {
-      "mbtiles": "mbtiles/tiles.mbtiles"
+  "sources": {
+    "terrastories-map": { // This MUST be terrastories-map OR you MUST update the config.json file to reflect your chosen name
+      "type": "vector", // or raster
+      "url": "pmtiles://tiles.pmtiles" // or "mbtiles://tiles.mbtiles". If your tile filename has a different name instead of "tiles", then change that too.
     }
   },
-  "styles": {
-    "your-map-style": {
-      "style": "styles/style.json",
-      "tilejson": {
-        "type": "overlay"
-      }
-    }
-  }
+  "sprite": "sprite", // optional, only needed if your style utilizes sprites by name
+  "glyphs": "{fontstack}/{range}.pbf", // optional, only needed if your style utilizes fonts by name
+  // the rest of your style specifications
 }
 ```
 
-Once you have your folders created, assets added, and configuration complete. Update your `compose.yaml` file in your favorite text editor to:
+For more information on custom maps, please see the Github repository [README.md](https://github.com/Terrastories/offline-field-kit/blob/main/map/README.md).
 
-<pre class="language-diff"><code class="lang-diff"><strong> tileserver:
-</strong><strong>   restart: unless-stopped
-</strong>-  image: terrastories/terrastories-map:latest
-+  image: maptiler/tileserver-gl:v4.7.0
-   ports:
-     - 8080:8080
-<strong>+  volumes:
-</strong>+    - ./tileserver/data:/data
-</code></pre>
-
-This changes the tileserver image to the official Tileserver-GL image, `maptiler/tileserver-gl`, at the tag v4.7.0 which is the current latest tag.
-
-It also mounts the `tileserver` folder you just created into the Tileserver for serving.
-
-### Custom Tileserver
+## Use a custom Tileserver
 
 If you are already hosting your own Tileserver, update compose.yaml file to remove the tileserver service and update the TILESERVER\_URL to point to your hosted Tileserver:
 
@@ -110,7 +75,7 @@ If you are already hosting your own Tileserver, update compose.yaml file to remo
 -      - 8080:8080
 ```
 
-### Custom Hostname
+## Set up a custom Hostname
 
 In order to access your Terrastories instance, you'll need to configure a domain.&#x20;
 
@@ -153,12 +118,4 @@ If you utilized a custom domain (not terrastories.local), update your `compose.y
     volumes:
       - ./media:/media
       - ./import:/api/import/media
-```
-
-## Run Terrastories
-
-Once everything is setup to your liking, run your Terrastories instance:
-
-```
-docker compose up
 ```
