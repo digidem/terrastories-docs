@@ -10,6 +10,16 @@ Community members can add places and stories through a user-friendly interface, 
 
 <figure><img src=".gitbook/assets/Terrastories Ohneganos Nov 22.jpg" alt=""><figcaption><p>Terrastories as used by the Haudenosaunee community at Six Nations of the Grand River Reserve in Ontario, Canada to map traditional knowledge and creation stories.</p></figcaption></figure>
 
+## \*\*\*Support Limitation Warning\*\*\*
+
+1. It is not possible to self-host Terrastories, either online or offline, without assistance from a developer. This is due to maintenance issues on current dependencies in the codebase.
+   * Documentation to guide someone executing these tasks is currently out of date.
+   * We unfortunately are not able to offer this support to you.
+2. For using Mapbox Studio maps on our.terrastories.app (or any Terrastories server), your maps need to be v2.x.x compatible. Please ask on the [Mapbox Discord](https://docs.mapbox.com/help/faq/mapbox-developers-discord/) for assistance.
+3. Feature development is on hold for the foreseeable future.&#x20;
+
+
+
 ## About this Guide
 
 This site provides an introduction to Terrastories and a collection of training & technical resources to support Terrastories users.
